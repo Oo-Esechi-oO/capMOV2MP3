@@ -1,5 +1,6 @@
 
 @echo off
+chcp 65001
 
 rem Call a bat file that converts MP4 to MP3.
 call subroot_MP4toMP3.bat

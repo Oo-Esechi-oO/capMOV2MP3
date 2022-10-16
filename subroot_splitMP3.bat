@@ -1,6 +1,8 @@
 
 @echo off
 
+chcp 65001
+
 md rst
 
 rem Reads the contents of list.txt line by line, extracts from the specified start time to the specified end time, and outputs it to the specified file name.

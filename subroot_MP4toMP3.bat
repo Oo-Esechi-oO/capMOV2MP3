@@ -1,6 +1,8 @@
 
 @echo off
 
+chcp 65001
+
 rem Find MP4 files in the directory.
 for %%i in (*.mp4) do (
   echo %%i
